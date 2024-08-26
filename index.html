@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="./assets/Logo.png" alt="logo alura">
+    </header>
+    <main class="principal">
+        <section class="principal__izq">
+            <textarea class="box" id="textoPegado" placeholder="Ingrese el texto aquí"></textarea>
+            <p class="instruccion">Solo letras minúsculas y sin acentos</p>
+            <div class="bottones">
+                <button type="button" class="encriptar">Encriptar</button>
+                <button type="button" class="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="principal__der" id="der">
+            <div class="box_img">
+                <img id="niño" src="./assets/Muñeco.png" alt="imagen niño buscando">
+            </div>
+            <div class="box_mensaje">
+                <h3 class="mensaje" id="textoResuelto">Ningún mensaje fue encontrado</h3>
+            </div>
+            <div class="box_instruccion">
+                <p class="instruccion_ing">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </section>
+        <div class="copiarTexto">
+                <button onclick="copiarAlPortapapeles();" type="button" class="copiar">Copiar</button>
+            </div>
+    </main>
+    <footer>
+        POR GUSTAVO ANDRES LIZCANO MONTUFAR
+    </footer>
+</body>
+</html>

@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 60px;
+    padding: 1%;
+}
+header img{
+    margin-left: 5px;
+    padding: 5px;
+}
+main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ededfa;
+    color:#00008b;
+    box-sizing: border-box
+}
+section{
+    height: 100%;
+}
+.principal{
+    box-sizing: border-box;
+}
+.principal__izq{
+    width: 60%;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.instruccion{
+    font-size: 12px;
+    color: #495057;
+}
+.instruccion_ing{
+    font-size: 16px;
+    color: #495057;
+}
+.principal__der{
+    width: 30%;
+    padding: 2%;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    box-sizing: border-box;
+}
+.box_img{
+    width: 100%;
+    height: 60%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.box_mensaje{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.box_instruccion{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color:#495057;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.bottones{
+    text-align: center;
+    margin-top: 20PX;
+    padding: 1%;
+    box-sizing: border-box;
+   
+}
+.encriptar, .desencriptar{
+    width: 300PX;
+    height: 40px;
+    margin: 24PX;
+    border-radius: 10PX;
+    color: white;
+    font-size: 16PX;
+    cursor: pointer;
+}
+.encriptar{
+    background-color: #0A3871;
+}
+.desencriptar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+.box{
+    height: 60%;
+     width: 80%;
+     resize: none;
+     margin: auto;
+     display: block;
+     text-align: justify;
+     border: 0;
+     background-color: #ededfa;
+     margin-top: 20px;
+     outline: 0;
+     font-size: 32px;
+     color: #0A3871;
+
+}
+.copiarTexto{
+    text-align: center;
+}
+
+.copiar{
+    background-color: #062970;
+    width: 80PX;
+    height: 40px;
+    margin: 24PX;
+    border-radius: 10PX;
+    color: white;
+    font-size: 16PX;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20PX;
+
+ }
+footer{
+    width: 100%;
+    height: 60px;
+    font-size: 12PX;
+    text-align: center;
+    padding-top: 20PX;
+
+}
+@media(max-width:1200PX){
+    .principal{
+        flex-direction: column-reverse;
+        margin: 10%;
+        box-sizing: border-box;
+    }
+    header{
+        padding: 15%;
+    }
+    .bottones{
+        text-align: center;
+        margin-top: 20PX;
+        padding: 1%;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    footer{
+        margin: 3% ;
+        box-sizing: border-box;
+    }
+}
